@@ -1,10 +1,12 @@
 header {
-    text-align: center;
+    text-align: left;
 }
 
-header h2 {
-    font-size: 4rem;
-    border: 5px solid;
+header .logo {
+    font-size: 3rem;
+    position:absolute;
+    right: 30px;
+    top:30px;
 }
 
 .menu__list {
@@ -15,4 +17,10 @@ header h2 {
 
 .menu__item[aria-current="page"] .menu__link {
     text-decoration: underline;
+}
+
+nav.menu {
+    position:absolute;
+    left:30px;
+    top:30px;
 }
