@@ -11,9 +11,11 @@ Junior Web Developer based in Largs, Scotland email: <nickantonyh@gmail.com>
 
 I've worked as an independent web developer since 2008, specializing in WordPress
 and Joomla. The majority of the projects I've delivered have been carried out on a subcontractual
-basis, and I've tended to work from home, to minimize overhead costs. I take
-a highly personable approach towards my clients and my work. I work on the basis of
+basis, and I've tended to work from home, to minimize overhead costs. 
+
+I take a highly personable approach towards my clients and my work. I work on the basis of
 simplicity and efficiency, minimizing the expenditure of unnecessary energy.  
+
 My projects are tailored to meet the specific needs of my clients. I do not spend inordinate amounts
 of time theorizing and brainstorming solutions; I assess the needs of the client, factor in the budget, select the most
 suitable system, and build. I then tune, test and iterate, according to the brief supplied, and according to what I see as
