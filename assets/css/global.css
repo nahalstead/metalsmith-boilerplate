@@ -29,10 +29,10 @@ a {
 }
 
 main {
-    max-width: 45em;
+    max-width: 86em;
     width: 100%;
     margin: 0 auto;
-    padding: 0 2em;
+    padding: 4em 0em;
     transition: opacity 0.6s;
     flex: 1;
 }
@@ -72,7 +72,7 @@ main li::before {
 h1 {
     font-weight: 700;
     line-height: 1.0;
-    font-size: 3.4em;
+    font-size: 2em;
 }
 h2 {
     font-size: 2rem;
@@ -95,7 +95,7 @@ img {
     height:auto;
 }
 main p {
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 main li ul {
