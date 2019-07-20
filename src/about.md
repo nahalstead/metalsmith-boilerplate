@@ -7,7 +7,7 @@ menu-order: 2
 
 # ABOUT ME
 
-Junior Web Developer based in Largs, Scotland 
+Junior Web Developer based in Largs, Scotland  
 Email me here: <nickantonyh@gmail.com>
 
 I've worked as an independent web developer since 2008, specializing in WordPress
