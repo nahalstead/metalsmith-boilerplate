@@ -48,7 +48,7 @@ metalsmith(__dirname)
             sortBy: 'menu-order'
         },
         projects: {
-            pattern: '*.md',
+            pattern: 'projects/*.md',
             sortBy: 'menu-order'
         }
     }))
