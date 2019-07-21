@@ -1,6 +1,6 @@
 ---
 title: Landing Page
-layout: projects.hbs
+layout: project.hbs
 description: I'll fake that this post also has some content.
 date: 11-21-2018
 ---
