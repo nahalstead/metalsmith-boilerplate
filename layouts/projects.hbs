@@ -7,15 +7,6 @@
 
         <h1>{{ title }}</h1>
         <p>{{ description }}</p>
-           {{#each project in projects}}
-                  <h1>{{project.title}}</h1>
-                  <ul>
-                      {{#each image in project.images}}
-                          <div class="project-img"><img src="{{image}}"/></div>
-                      {{/each}}
-                  </ul>
-              {{/each}}
-
         {{{ contents }}}
     </main>
 
