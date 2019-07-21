@@ -38,7 +38,8 @@ metalsmith(__dirname)
     .destination('./dist')
     .clean(true)
     .use(images({
-  	pattern: 'projects/**/*.md'
+        pattern: 'projects/**/*.md',
+        imagesDirectory: 'images'
     }))
     .use(drafts())
     .use(collections({
