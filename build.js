@@ -46,6 +46,10 @@ metalsmith(__dirname)
         pages: {
             pattern: '*.md',
             sortBy: 'menu-order'
+        },
+        projects: {
+            pattern: '*.md',
+            sortBy: 'menu-order'
         }
     }))
     .use(markdown())
