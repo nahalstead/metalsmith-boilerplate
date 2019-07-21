@@ -7,6 +7,7 @@ const layouts = require('metalsmith-layouts');
 const sitemap = require('metalsmith-sitemap');
 const Handlebars = require('handlebars');
 const moment = require('moment');
+var images = require('metalsmith-project-images');
 
 Handlebars.registerHelper('is', function (value, test, options) {
     if (value === test) {
@@ -36,6 +37,9 @@ metalsmith(__dirname)
     .source('./src')
     .destination('./dist')
     .clean(true)
+    .use(images({
+  	pattern: 'projects/**/*.md'
+    }))
     .use(drafts())
     .use(collections({
         posts: {
@@ -48,8 +52,8 @@ metalsmith(__dirname)
             sortBy: 'menu-order'
         },
         projects: {
-            pattern: 'projects/*.md',
-            sortBy: 'menu-order'
+            pattern: 'projects/**/*.md',
+            sortBy: 'date'
         }
     }))
     .use(markdown())
