@@ -54,7 +54,8 @@ metalsmith(__dirname)
         },
         projects: {
             pattern: 'projects/**/*.md',
-            sortBy: 'date'
+            sortBy: 'date', 
+            reverse: false
         }
     }))
     .use(markdown())
