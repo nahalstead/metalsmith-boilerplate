@@ -37,6 +37,11 @@ main {
     flex: 1;
 }
 
+.menu__list {
+    margin: 0;
+}
+
+
 /* Content links */
 main a,
 footer p a {
