@@ -1,0 +1,19 @@
+{{> doc-head }}
+<link href="/assets/css/blog.css" rel="stylesheet">
+<body>
+    {{> header }}
+
+    <main>
+
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+        <hr class="blog__title-divider">
+        
+        <div class="project-img">{{ project-img }}</div>
+
+        {{{ contents }}}
+    </main>
+
+    {{> footer }}
+</body>
+</html>
