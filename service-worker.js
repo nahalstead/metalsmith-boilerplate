@@ -8,6 +8,7 @@ var offlineFundamentals = [
   '/about/index.html',
   '/posts/index.html',
   '/contact/index.html',
+  '/projects/index.html',
 ];
 
 self.addEventListener("install", function(event) {
