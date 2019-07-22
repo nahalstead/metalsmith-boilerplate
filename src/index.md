@@ -4,6 +4,12 @@ layout: default.hbs
 menu-order: 1
 ---
 
-# Homepage
+# Hi!  
 
-Look around the site or explore the [code](https://github.com/andreasvirkus/metalsmith-boilerplate)
+I'm a web developer based in Scotland, UK.  
+
+[View my work](https://www.nickhalstead.co.uk/projects/)  
+[Read my CV](https://www.nickhalstead.co.uk/about/)  
+[Get in touch](https://www.nickhalstead.co.uk/contact/)
+
+
