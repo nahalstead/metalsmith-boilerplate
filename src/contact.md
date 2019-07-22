@@ -5,4 +5,5 @@ layout: contact.hbs
 menu-order: 3
 ---
 
-Find my telephone in the yellow pages.
+email me here: <nickantonyh@gmail.com>  
+call me: +447751435710
