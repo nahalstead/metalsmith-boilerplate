@@ -1,10 +1,10 @@
-<nav class="blog__menu" role="navigation">
-    <ul class="blog__menu-list">
+<nav class="projects_menu" role="navigation">
+    <div class="projects_menu-list">
         {{# each collections.projects }}
-        <li class="blog__menu-item {{#is this.path @root.path }}active{{/is}}">
+        <div class="project_menu-item {{#is this.path @root.path }}active{{/is}}">
             <a href="/{{ this.path }}" class="blog__menu-link"><img src="/{{ this.path }}/{{ this.image }}"/></a><br>
             <a href="/{{ this.path }}" class="blog__menu-link">{{ this.title }}</a> | <em>{{ date this.date }}</em>
-        </li>
+        </div>
         {{/ each }}
     </ul>
 </nav>
