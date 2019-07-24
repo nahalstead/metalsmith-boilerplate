@@ -14,3 +14,6 @@ This is just a very minimal image slider built using HTML, CSS and jQuery to cre
 
 ## Demo:
 https://agitated-hermann-1a868f.netlify.com/
+
+## Code: 
+https://github.com/nahalstead/simple-jquery-slider
