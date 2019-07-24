@@ -5,5 +5,3 @@ layout: projects.hbs
 menu-order: 5
 ---
 
-Recent work:
-
