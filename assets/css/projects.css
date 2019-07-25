@@ -1,6 +1,11 @@
 /* Styles for projects */
 main {
     max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 4em 0em;
+    transition: opacity 0.6s;
+    flex: 1;
 }
 .projects_menu-link {
     border-bottom: 0px;
