@@ -2,6 +2,9 @@
 
 var version = 'v1::';
 var offlineFundamentals = [
+  '/assets/css/projects.css',
+  '/assets/css/global.css',
+  '/assets/css/styles.min.css',
   '/assets/js/script.min.js',
   '/index.html',
   '/about/index.html',
