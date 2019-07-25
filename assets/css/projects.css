@@ -1,4 +1,7 @@
 /* Styles for projects */
+main {
+    max-width: 100%;
+}
 .projects_menu-link {
     border-bottom: 0px;
 }
