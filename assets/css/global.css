@@ -453,6 +453,7 @@ img {
 }
 main p {
     font-size: 1em;
+    line-height: 1.6em;
 }
 
 main li ul {
