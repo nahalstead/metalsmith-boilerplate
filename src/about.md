@@ -28,18 +28,10 @@ Jul 1995 - Grade 8 ABRSM Percussion
 
 # EXPERIENCE
 
-2010 - Present - Sub-contractual Web Developer - Sub-contractual development for Alan Rowe at *ClickThrough Marketing Ltd.* Including but not limited to HTML5, CSS3, JavaScript, Joomla / WordPress customization, content editing, site maintenance
-
-2008 - Present - Freelance web developer & Project Manager - Freelance professional web development; customer-facing, client-oriented contractual projects, using WordPress and Joomla to build websites for Small to Medium Enterprises,
-including charities, professional musicians and artists.
-
-2007 - 2010 - Musician / Producer - Lead producer, engineer, composer, arranger and drummer for EP and LP by *The Rush
-Hour*, a band based in Birmingham. 
-
-2007 - 2008 - Sound Engineer / Consultant - Professional sound engineering and audio consultant on full UK tour for *Afrika Jam*, a group of musicians based in Birmingham and Africa.
-
-2006 - 2008 - Freelance Sound Engineer - Sound engineering at the *Medicine Bar* venue in the Custard Factory, Birmingham.
-
-1999 - 2005 - Musician / Producer - Live drums for the band Plutonik on Integrity Records, for their UK and European tour to
-promote their debut album, Prime Numbers. Also, production, performance and
-composition work on their second album, *The Waiting Room* (unreleased).
+2010 - Present - Sub-contractual Web Developer - Sub-contractual development for Alan Rowe at *ClickThrough Marketing Ltd.* Including HTML5, CSS3, JavaScript, Joomla / WordPress customization, content editing, site maintenance  
+2008 - Present - Freelance Web Developer & Project Manager - Freelance professional web development; customer-facing, client-oriented contractual projects, using WordPress and Joomla to build websites for Small to Medium Enterprises  
+2007 - 2010 - Musician / Producer - Lead producer, engineer, composer, arranger and drums for EP and LP by *The Rush
+Hour*, a band based in Birmingham, UK  
+2007 - 2008 - Sound Engineer / Consultant - Professional sound engineering and audio consultant on UK tour for *Afrika Jam*, a group of musicians based in Birmingham and Africa  
+2006 - 2008 - Freelance Sound Engineer - Sound engineering at the *Medicine Bar* venue in the Custard Factory, Birmingham  
+1999 - 2005 - Musician / Producer - Live drums for the band *[Plutonik](http://plutonik.com/)* on Integrity Records, for their UK and European tour to promote their debut album, Prime Numbers. Also, production, performance and composition work on second album, *The Waiting Room* (unreleased)  
