@@ -1,6 +1,6 @@
 ---
 title: simple image slider
-layout: projects.hbs
+layout: project.hbs
 collection: projects
 description: simple responsive image slider built using jQuery
 date: 07-24-2019
