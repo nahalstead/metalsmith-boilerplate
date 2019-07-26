@@ -2,3 +2,6 @@ main p {
     font-size: 1em;
     line-height: 1.6em;
 }
+.about main  {
+    max-width: 37rem;
+}
