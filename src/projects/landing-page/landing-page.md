@@ -1,6 +1,6 @@
 ---
 title: Landing Page
-layout: projects.hbs
+layout: project.hbs
 collection: projects
 description: Basic demo landing page 
 date: 11-21-2018
