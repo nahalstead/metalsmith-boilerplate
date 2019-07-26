@@ -468,6 +468,7 @@ main li ul {
     }
     main p {
         font-size: 1.2em;
+        line-height: 1.6em;
     }
     img {
         height: auto;
