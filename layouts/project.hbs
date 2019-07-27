@@ -4,11 +4,12 @@
     {{> header }}
 
     <main>
-        <h1>{{ title }}</h1>
-        <h3>{{ description }}</h3>
-        <div class="project-img"><img src="{{image}}"/></div>
-        {{{ contents }}}
-
+        <div id="project-wrapper">
+            <h1>{{ title }}</h1>
+            <h3>{{ description }}</h3>
+            <div class="project-img"><img src="{{image}}"/></div>
+            {{{ contents }}}
+        </div>
         {{> project-nav }}
     </main>
 
