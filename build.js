@@ -53,7 +53,7 @@ metalsmith(__dirname)
             sortBy: 'menu-order'
         },
         projects: {
-            pattern: 'projects/**/*.md',
+            pattern: 'projects/*.md',
             sortBy: 'date', 
             reverse: false,
             refer: true
