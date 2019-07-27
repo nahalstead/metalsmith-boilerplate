@@ -9,9 +9,14 @@
             <h1>{{ title }}</h1>
             <h3>{{ description }}</h3>
             {{{ contents }}}
-            <a href="{{this.previous}}">Prev</a>
-            <a href="{{this.next}}">Next</a>
-        </div>
+            <div class="project_nav">
+                {{#if previous}}
+                <a class="prev" href="/{{{previous.url}}}">&larr; Prev</a>
+                {{/if}}
+                {{#if next}}
+                <a class="next right" href="/{{{next.url}}}">Next &rarr;</a>
+                {{/if}}
+            </div>
         {{> project-nav }}
     </main>
 
