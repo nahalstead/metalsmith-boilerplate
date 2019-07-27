@@ -34,4 +34,4 @@ Jul 1995 - Grade 8 ABRSM Percussion
 Hour*, a band based in Birmingham, UK  
 2007 - 2008 - Sound Engineer / Consultant - Professional sound engineering and audio consultant on UK tour for *Afrika Jam*, a group of musicians based in Birmingham and Africa  
 2006 - 2008 - Freelance Sound Engineer - Sound engineering at the *Medicine Bar* venue in the Custard Factory, Birmingham  
-1999 - 2005 - Musician / Producer - Live drums for the band *[Plutonik](http://plutonik.com/)* on Integrity Records, for their UK and European tour to promote their debut album, Prime Numbers. Also, production, performance and composition work on second album, *The Waiting Room* (unreleased)  
+1999 - 2005 - Musician / Producer - Live drums for the band *[Plutonik](http://plutonik.com/)* on Integrity Records, for their UK and European tour to promote their debut album, *Prime Numbers*. Also, production, performance and composition work on second album, *The Waiting Room* (unreleased)  
