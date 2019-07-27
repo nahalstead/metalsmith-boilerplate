@@ -11,3 +11,13 @@ main p {
 .project .project-img img {
     max-width: 100%;
 }
+.project h1 {
+    position: fixed;
+    top: 22px;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    left: 45%;
+    font-family: "Helvetica", sans-serif !important;
+    letter-spacing: 0;
+}
