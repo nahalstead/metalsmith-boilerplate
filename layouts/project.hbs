@@ -9,6 +9,8 @@
             <h1>{{ title }}</h1>
             <h3>{{ description }}</h3>
             {{{ contents }}}
+            <a href="{{this.previous}}">Prev</a>
+            <a href="{{this.next}}">Next</a>
         </div>
         {{> project-nav }}
     </main>
