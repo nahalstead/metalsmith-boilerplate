@@ -8,3 +8,6 @@ main p {
 .project #project-wrapper {
     max-width: 37rem;
 }
+.project .project-img img {
+    max-width: 100%;
+}
