@@ -1,5 +1,5 @@
 body {
-    padding: 30px;
+    padding: 30px !important;
 }
 main p {
     font-size: 1em;
