@@ -18,7 +18,7 @@ Handlebars.registerHelper('is', function (value, test, options) {
 });
 
 Handlebars.registerHelper('date', function (date) {
-    return moment(date, "MM-DD-YYYY").format('Do MMM \'YY');
+    return moment(date, "YYYY").format('YYYY');
 });
 
 metalsmith(__dirname)
