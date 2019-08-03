@@ -1,4 +1,7 @@
 /* Styles for projects */
+.projects main {
+    max-width: 100%;
+}
 main {
     max-width: 100%;
     width: 100%;
