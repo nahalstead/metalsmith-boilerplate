@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "npm install",
-    "start": "node . && npm run postbuild",
-    "postbuild": "npm run copy-assets && npm run minify",
-    "copy-assets": "cp -r assets dist/ && cp robots.txt dist/ && cp manifest.json dist/ && cp service-worker.js dist/"
-   
+    "start": "node . && npm run postbuild"
   },
   "repository": {
     "type": "git",
