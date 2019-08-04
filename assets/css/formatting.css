@@ -3,8 +3,13 @@ body {
     font-family: "Helvetica", sans-serif;
 }
 main p {
-    font-size: 1em;
-    line-height: 1.6em;
+    font-size: 0.8em;
+    line-height: 1.3em;
+}
+footer p a, main a {
+    display: initial;
+    border-bottom: 0px solid var(--link-border-color);
+    font-weight: 500;
 }
 .about main  {
     max-width: 37rem;
