@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "npm install",
     "start": "node . && npm run postbuild",
-    "postbuild": "npm run copy-assets && npm run minify",
+    "postbuild": "npm run copy-assets",
     "copy-assets": "cp -r assets dist/ && cp robots.txt dist/ && cp manifest.json dist/ && cp service-worker.js dist/",
  "minify": "npm run minify:js && npm run minify:css",
     "minify:js": "uglifyjs ./dist/assets/js/*.js -c -m -o ./dist/assets/js/script.min.js",
