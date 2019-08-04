@@ -1,1 +1,30 @@
+{{> doc-head }}
+<link href="/assets/css/projects.css" rel="stylesheet">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script type="text/javascript" src="/assets/js/script.js"></script>
+<body class="project">
+    {{> header }}
 
+    <main>
+        <div id="project-wrapper">
+            <div id="slideshow">
+              <div class="slider"><img src="{{image}}"/></div>
+            </div>
+            <h1>{{ title }}</h1>
+            <h3>{{ description }}</h3>
+            {{{ contents }}}
+            <div class="project_nav">
+                {{#if previous}}
+                <a class="prev" href="{{{previous.url}}}">&larr; Prev</a>
+                {{/if}}
+                {{#if next}}
+                <a class="next right" href="{{{next.url}}}">Next &rarr;</a>
+                {{/if}}
+            </div>
+        </div>    
+        {{> project-nav }}
+    </main>
+
+    {{> footer }}
+</body>
+</html>
