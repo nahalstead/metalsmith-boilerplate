@@ -1,6 +1,6 @@
 ---
 title: Piefingers
-layout: project.hbs
+layout: piefingers-slideshow.hbs
 collection: projects
 description: Logo & Print Design for Piefingers
 date: 07-24-2019
