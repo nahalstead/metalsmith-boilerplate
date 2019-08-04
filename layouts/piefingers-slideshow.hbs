@@ -7,9 +7,30 @@
 
     <main>
         <div id="project-wrapper">
-            <div id="slideshow">
-              <div class="slider"><img src="{{image}}"/></div>
+        <div id="slideshowWrapper">
+            <div class="slider-nav">
+            <a href="#" class="prev">Prev</a> / <a href="#" class="next">Next</a>
+            <a href="#" class="slideshow_toggle_thumbnails">Thumbnails</a>
             </div>
+            <div id="slideshow">
+                <div class="slider">
+                <img src="/src/projects/images/piefingers/4265.jpg"/>
+                <img src="/src/projects/images/piefingers/89781.jpg"/>
+                <img src="/src/projects/images/piefingers/25184.jpg"/>
+                <img src="/src/projects/images/piefingers/39517.jpg"/>
+                <img src="/src/projects/images/piefingers/81357.jpg"/>
+                <img src="/src/projects/images/piefingers/98534.jpg"/>
+                </div><!-- close slider -->
+                <div class="slideshow_thumbnails">
+                    <img src="/src/projects/images/piefingers/4265.jpg"/>
+                    <img src="/src/projects/images/piefingers/89781.jpg"/>
+                    <img src="/src/projects/images/piefingers/25184.jpg"/>
+                    <img src="/src/projects/images/piefingers/39517.jpg"/>
+                    <img src="/src/projects/images/piefingers/81357.jpg"/>
+                    <img src="/src/projects/images/piefingers/98534.jpg"/>
+                </div><!-- close slideshow_thumbnails -->
+            </div><!-- close slideshow -->
+         </div><!-- close slideshowWrapper -->
             <h1>{{ title }}</h1>
             <h3>{{ description }}</h3>
             {{{ contents }}}
