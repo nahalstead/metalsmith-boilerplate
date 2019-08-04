@@ -29,3 +29,59 @@ main p {
   transform: none;
     }
 }
+
+.slider-nav a {
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+#slideshowWrapper {
+  display: block;
+}
+.slider, .slideshow_thumbnails {
+    padding: 30px 0px 0px 0px;
+}
+.slider img {
+  display: none;
+  max-width: 100%;
+  overflow: hidden;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  font-size: 0;
+  margin-left: -2px;
+}
+.slider img.active {
+    display: inline-block;
+    opacity: 1;
+    height: auto;
+    vertical-align: bottom;
+    max-height: 83vh;
+    width: auto;
+}
+.slider img.inactive {
+  visibility: hidden;
+  opacity: 0;
+}
+.slideshow_thumbnails {
+  display: none;
+}
+.slideshow_thumbnails.show {
+  display: block;
+}
+.slideshow_thumbnails.show img {
+    max-width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 20px 20px 0;
+    height: 150px;
+    width: auto;
+}
+.slider.hide {
+  display: none;
+}
+.slider-nav .slideshow_toggle_thumbnails {
+  float: right;
+  margin-right: 1px;
+}
