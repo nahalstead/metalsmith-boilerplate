@@ -93,6 +93,7 @@ h3 {
 .text-contents {
     max-width: 45%;
     display: inline-block;
+    vertical-align: top;
 }
 /*------------------ Slider styles --------------------*/
 .slider-nav a {
@@ -104,6 +105,7 @@ h3 {
     max-width: 45%;
     margin-right: 5%;
     display: inline-block;
+    vertical-align: top;
 }
 .slider, .slideshow_thumbnails {
     padding: 30px 0px 0px 0px;
