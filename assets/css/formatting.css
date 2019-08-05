@@ -44,7 +44,7 @@ header {
 }
 /*********** Wrapper Styles **************/
 .about main {
-    max-width: 37rem;
+    max-width: 100%;
     padding-top: 3rem;
 }
 .project #project-wrapper {
@@ -75,6 +75,11 @@ h1 {
     letter-spacing: 1px;
     margin: 0 0 0 -45px;
 }
+h2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
 h3 {
     font-size: 18px;
     font-weight: normal;
@@ -85,6 +90,10 @@ h3 {
     font-size: 16px;
     letter-spacing: 1px;
 }
+.text-contents {
+    max-width: 45%;
+    display: inline-block;
+}
 /*------------------ Slider styles --------------------*/
 .slider-nav a {
   font-size: 12px;
@@ -92,7 +101,9 @@ h3 {
   text-decoration: none;
 }
 #slideshowWrapper {
-  display: block;
+    max-width: 45%;
+    margin-right: 5%;
+    display: inline-block;
 }
 .slider, .slideshow_thumbnails {
     padding: 30px 0px 0px 0px;
