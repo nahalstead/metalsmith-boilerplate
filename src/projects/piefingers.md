@@ -9,5 +9,5 @@ next: "https://www.nickhalstead.co.uk/projects/landing-page"
 ---
 I designed the logo for Piefingers, the artist aka Emily Loydall. I also designed the layout and branding for her notebooks, thank you cards and other assorted stationery. 
 
-## Website: [here](https://www.piefingers.net/)
+Website: [here](https://www.piefingers.net/)
 
