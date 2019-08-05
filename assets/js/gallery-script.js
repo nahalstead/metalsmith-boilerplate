@@ -2,7 +2,7 @@
 // initiate slider
 var main = function() {
   $('.next').add('.slider img').click(function() {
-    var currentSlide = $('.active');
+    var currentSlide = $('.slider .active');
     var nextSlide = currentSlide.next();
     
     if (nextSlide.length == 0) {
