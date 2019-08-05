@@ -74,6 +74,11 @@ h3 {
     font-weight: normal;
     letter-spacing: 1px;
 }
+/******************* Projects **************************/
+.projects_menu-link {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
 /*------------------ Slider styles --------------------*/
 .slider-nav a {
   font-size: 12px;
