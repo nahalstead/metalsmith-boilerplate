@@ -71,9 +71,9 @@ h1 {
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-    left: 45%;
+    left: 50%;
     letter-spacing: 1px;
-    margin: 0;
+    margin: 0 0 0 -45px;
 }
 h3 {
     font-size: 18px;
