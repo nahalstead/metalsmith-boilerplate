@@ -5,7 +5,7 @@ layout: about.hbs
 menu-order: 2
 ---
 
-# ABOUT ME
+# About Me
 
 Junior Web Developer & Designer based in Largs, Scotland  
 Email me here: <nickantonyh@gmail.com>  
@@ -18,7 +18,7 @@ basis, and I've tended to work from home, to minimize overhead costs.
 I take a highly personable approach towards my clients and my work. I work on the basis of
 simplicity and efficiency, minimizing the expenditure of unnecessary energy.  
 
-# QUALIFICATIONS / ACHIEVEMENTS
+# Qualifications
 
 Nov 2018 - [Responsive Web Design Developer Certification](https://www.freecodecamp.org/certification/fcc57dbed26-7e6a-4dd4-8380-88f0c36ee25b/responsive-web-design)  
 Aug 1999 - Btech National Diploma in Performing Arts  
@@ -26,7 +26,7 @@ Aug 1999 - A level Music
 Jul 1995 - Grade 8 ABRSM Percussion  
 
 
-# EXPERIENCE
+# Experience
 
 2010 - Present - Sub-contractual Web Developer - Sub-contractual development for Alan Rowe at *ClickThrough Marketing Ltd.* Including HTML5, CSS3, JavaScript, Joomla / WordPress customization, content editing, site maintenance  
 2008 - Present - Freelance Web Developer & Project Manager - Freelance professional web development; customer-facing, client-oriented contractual projects, using WordPress and Joomla to build websites for Small to Medium Enterprises  
