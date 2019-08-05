@@ -19,6 +19,11 @@ header {
     letter-spacing: 1px;
     font-size: 18px;
 }
+.logo {
+    position: fixed;
+    top: 35px;
+    left: 35px;
+}
 .menu {
     position: fixed;
     top: 35px;
