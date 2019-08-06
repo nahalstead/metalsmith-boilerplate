@@ -1,8 +1,8 @@
 ---
-title: About
+title: Info
 description: About Nick Halstead.
 layout: about.hbs
-menu-order: 2
+menu-order: 1
 ---
 
 About Me
