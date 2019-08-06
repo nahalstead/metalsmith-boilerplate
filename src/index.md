@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: default.hbs
+layout: projects.hbs
 menu-order: 1
 ---
 
