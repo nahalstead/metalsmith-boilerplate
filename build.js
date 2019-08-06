@@ -67,6 +67,7 @@ metalsmith(__dirname)
 			site: {},
 			package: require( './package.json')
 		});
+	})
     .use(layouts({
         engine: 'handlebars',
         directory: 'layouts',
