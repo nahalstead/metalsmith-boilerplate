@@ -2,7 +2,7 @@
     <div class="projects_nav_list">
         {{# each collections.projects }}
         <div class="project_nav_item {{#is this.path @root.path }}active{{/is}}">
-            <a href="/{{ this.previous }}" class="prev">&larr;</a>
+            <a href="/{{ previous.url }}" class="prev">&larr;</a>
             <a href="https://www.nickhalstead.co.uk" class="index">index</a>
             <a href="/{{ this.next }}" class="next">&rarr;</a>
         </div>
