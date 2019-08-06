@@ -61,13 +61,6 @@ metalsmith(__dirname)
     }))
     .use(markdown())
     .use(permalinks())
-    .use((files, metalsmith, done) => {
-		setImmediate(done);
-		metalsmith.metadata({
-			site: {},
-			package: require( './package.json')
-		});
-	})
     .use(layouts({
         engine: 'handlebars',
         directory: 'layouts',
