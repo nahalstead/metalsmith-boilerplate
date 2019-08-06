@@ -5,8 +5,6 @@ layout: about.hbs
 menu-order: 1
 ---
 
-About Me
-
 Junior Web Developer & Designer based in Largs, Scotland  
 Email me here: <nickantonyh@gmail.com>  
 Call me on +447751435710
