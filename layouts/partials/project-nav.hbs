@@ -2,9 +2,14 @@
     <div class="projects_nav_list">
         {{# each collections.projects }}
         <div class="project_nav_item {{#is this.path @root.path }}active{{/is}}">
-            <a href="/{{ this.path }}" class="prev">&larr;</a>
-            <a href="https://www.nickhalstead.co.uk" class="index">index</a>
-            <a href="/{{ this.path }}" class="next">&rarr;</a>
+<div class="lesson-nav">
+      {{#if previous}}
+        <a class="prev" href="/{{{previous.url}}}">&larr; {{{previous.title}}}</a>
+      {{/if}}
+      {{#if next}}
+        <a class="next right" href="/{{{next.url}}}">{{{next.title}}} &rarr;</a>
+      {{/if}}
+    </div>
         </div>
         {{/ each }}
     </ul>
