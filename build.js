@@ -51,7 +51,7 @@ metalsmith(__dirname)
         pages: {
             pattern: '*.md',
             sortBy: 'menu-order',
-            limit: 2
+            limit: 1
         },
         projects: {
             pattern: 'projects/*.md',
