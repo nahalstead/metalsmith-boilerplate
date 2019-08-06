@@ -1,9 +1,10 @@
-<nav class="projects_menu" role="navigation">
-    <div class="projects_menu-list">
+<nav class="projects_nav" role="navigation">
+    <div class="projects_nav_list">
         {{# each collections.projects }}
-        <div class="project_menu-item {{#is this.path @root.path }}active{{/is}}">
-            <a href="/{{ this.path }}" class="projects_menu-link"><img src="/{{ this.path }}/{{ this.image }}"/></a><br>
-            <a href="/{{ this.path }}" class="projects_menu-link">{{ this.title }}</a>
+        <div class="project_nav_item {{#is this.path @root.path }}active{{/is}}">
+            <a href="/{{ this.previous }}" class="prev">&larr;</a>
+            <a href="https://www.nickhalstead.co.uk" class="index">index</a>
+            <a href="/{{ this.next }}" class="next">&rarr;</a>
         </div>
         {{/ each }}
     </ul>
