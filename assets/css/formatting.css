@@ -101,7 +101,7 @@ h3 {
   color: #000;
   text-decoration: none;
 }
-#slideshowWrapper {
+#slideshowWrapper, .imageWrapper {
     max-width: 45%;
     margin-right: 5%;
     display: inline-block;
