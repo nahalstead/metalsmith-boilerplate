@@ -24,8 +24,8 @@ Handlebars.registerHelper('date', function (date) {
 metalsmith(__dirname)
     .metadata({
         site: {
-            name: 'My site',
-            description: "My super sweet Metalsmith site on Netlify.",
+            name: 'Nick Halstead',
+            description: "Junior Web Developer & Designer based in Largs, Scotland",
             generatorname: "Metalsmith",
             generatorurl: "http://metalsmith.io/",
             generatortitle: "Check out Metalsmith!",
