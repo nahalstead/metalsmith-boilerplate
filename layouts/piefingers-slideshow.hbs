@@ -31,10 +31,17 @@
          </div><!-- close slideshowWrapper -->
             <h1>{{ title }}</h1>
             <div class="text-contents">
+            <div class="project_nav">
+                    {{#if previous}}
+                    <a class="prev" href="{{{previous.url}}}">&larr;</a>
+                    {{/if}}
+                    {{#if next}}
+                    <a class="next right" href="{{{next.url}}}">&rarr;</a>
+                    {{/if}}
+            </div>
             {{{ contents }}}
             </div>
         </div>    
-        {{> project-nav }}
     </main>
 
     {{> footer }}
