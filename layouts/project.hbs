@@ -5,18 +5,20 @@
 
     <main>
         <div id="project-wrapper">
+            <div class="imageWrapper">
             <div class="project-img"><img src="{{image}}"/></div>
-            <h1>{{ title }}</h1>
-            <h3>{{ description }}</h3>
-            {{{ contents }}}
-            <div class="project_nav">
-                {{#if previous}}
-                <a class="prev" href="{{{previous.url}}}">&larr; Prev</a>
-                {{/if}}
-                {{#if next}}
-                <a class="next right" href="{{{next.url}}}">Next &rarr;</a>
-                {{/if}}
             </div>
+            <div class="text-contents">
+            <h1>{{ title }}</h1>
+            {{{ contents }}}
+                <div class="project_nav">
+                    {{#if previous}}
+                    <a class="prev" href="{{{previous.url}}}">&larr; Prev</a>
+                    {{/if}}
+                    {{#if next}}
+                    <a class="next right" href="{{{next.url}}}">Next &rarr;</a>
+                    {{/if}}
+                </div>
         </div>    
         {{> project-nav }}
     </main>
