@@ -54,6 +54,7 @@ header {
 .project .project-img img {
     max-width: 100%;
 }
+/********** Mobile Styles ************/
 @media screen and (max-width:45em){
     main {
   -webkit-transform: none;
@@ -63,6 +64,18 @@ header {
     max-width: 100%;
     padding-top: 3rem;
     }
+    #slideshowWrapper, .imageWrapper {
+    max-width: 100%;
+    margin-right: 0%;
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    }
+    .text-contents {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+}
 }
 /*********** Headers ********************/
 h1 {
@@ -111,6 +124,7 @@ h3 {
     margin-right: 5%;
     display: inline-block;
     vertical-align: top;
+    width: 45%;
 }
 .slider, .slideshow_thumbnails {
     padding: 30px 0px 0px 0px;
