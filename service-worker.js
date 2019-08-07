@@ -3,13 +3,7 @@
 var version = 'v1::';
 var offlineFundamentals = [
   '/assets/css/formatting.css',
-  '/assets/js/gallery-script.js',
-  '/assets/css/projects.css',
-  '/index.html',
-  '/about/index.html',
-  '/posts/index.html',
-  '/contact/index.html',
-  '/projects/index.html',
+  '/assets/js/gallery-script.js'
 ];
 
 self.addEventListener("install", function(event) {
