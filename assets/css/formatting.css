@@ -6,6 +6,8 @@ body {
 main p {
     font-size: 0.8em;
     line-height: 1.3em;
+    margin: 0;
+    padding: 26px 0px 0px 0px;
 }
 footer {
     display: none;
