@@ -105,7 +105,7 @@ function getWidth(){
   var imageHeight = $('.slider img').get(0).naturalHeight;
   var t = $('.slider img').get(0).naturalHeight;
   var n = $('.slider img').get(0).naturalWidth;
-  var r = ($(window).height() - 150) / t;    
+  var r = ($(window).height() - 40) / t;    
   var i = $(window).width() / n;
   return r < i ? r / i * 100 + "%": "100%";
   }
