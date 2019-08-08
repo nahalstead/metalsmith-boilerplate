@@ -8,8 +8,4 @@ menu-order: 5
 
 I'm a web developer based in Scotland
 
-[View my work](https://www.nickhalstead.co.uk/projects/)  
-[Read my CV](https://www.nickhalstead.co.uk/about/)  
-[Get in touch](https://www.nickhalstead.co.uk/contact/)
-
 
