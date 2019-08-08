@@ -6,7 +6,7 @@ menu-order: 5
 
 # Hi!  
 
-I'm a web developer based in Scotland, UK.  
+I'm a web developer based in Scotland
 
 [View my work](https://www.nickhalstead.co.uk/projects/)  
 [Read my CV](https://www.nickhalstead.co.uk/about/)  
