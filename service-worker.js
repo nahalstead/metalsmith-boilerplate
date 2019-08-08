@@ -3,6 +3,7 @@
 var version = 'v1::';
 var offlineFundamentals = [
   '/assets/css/formatting.css',
+  '/assets/css/projects.css',
   '/assets/js/gallery-script.js'
 ];
 
