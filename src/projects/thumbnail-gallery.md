@@ -13,6 +13,4 @@ The idea here was to use clean code (removing all unnecessary fluff) to create a
 
 The code for the responsive size of the image is based on a calculation I adapted from the toddhido.com website. It uses window width and height as a reference for the relative size of the image. 
 
-Demo: [here](https://tender-benz-5bd3ec.netlify.com/)
-
-Code: [here](https://github.com/nahalstead/jquery-thumbnail-toggle-gallery)
+Demo: [here](https://tender-benz-5bd3ec.netlify.com/) / Code: [here](https://github.com/nahalstead/jquery-thumbnail-toggle-gallery)
