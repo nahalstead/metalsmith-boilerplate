@@ -132,6 +132,28 @@ h3 {
     width: 45%;
 }
 @media only screen and (max-width:767px) {
+    body {
+	background: #fff !important;
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+	overflow-x: hidden;
+
+	-webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+	padding-top: 44px;
+}
+    .project_nav a {
+        color: #999;
+	display: block;
+	float: left;
+	height: 44px;
+	padding: 18px;
+	text-decoration: none;
+	position: relative;
+    }
     .imageWrapper {
         max-width: 100%;
         width: 100%;
@@ -142,12 +164,13 @@ h3 {
     vertical-align: top;
     }
     .project_nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #f2f2f2;
-    left: 0;
-    min-height: 50px;
+    background: rgba(245, 245, 245, 0.97);
+	height: 44px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
 }
 }
 .slider, .slideshow_thumbnails {
