@@ -106,6 +106,15 @@ h3 {
     letter-spacing: 1px;
 }
 /******************* Projects **************************/
+.project_nav {
+    position: fixed;
+    bottom: 0;
+    background: #e2e2e2;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 44px;
+}
 .projects_menu-link {
     font-size: 16px;
     letter-spacing: 1px;
