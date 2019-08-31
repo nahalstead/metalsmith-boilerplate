@@ -15,7 +15,6 @@ main {
 }
 .projects_menu img {
     display: block;
-    max-width: 330px;
     width: 100%;
     height: auto;
 }
@@ -42,6 +41,6 @@ main {
 .project_menu-item {
     margin: 30px 30px 0 0;
     display: block;
-    width: 27%;
+    width: 24%;
     vertical-align: top;
 }
