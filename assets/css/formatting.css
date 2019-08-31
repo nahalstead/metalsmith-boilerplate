@@ -242,7 +242,6 @@ h3 {
 
 .grid-icon {
 	display: inline-block;
-	margin: 2vw;
 }
 
 .grid-icon:hover > span > span {
@@ -270,7 +269,9 @@ h3 {
 .grid-icon--line > .layer--primary {
 	top: 0;
 }
-
+.project_nav a {
+    vertical-align: middle;
+}
 .grid-icon--line > .layer--secondary {
 	top: 50%;
 	margin-top: -4px;
