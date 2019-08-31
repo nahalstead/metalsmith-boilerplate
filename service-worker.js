@@ -51,7 +51,7 @@ self.addEventListener("fetch", function(event) {
            Read more:
            https://ponyfoo.com/articles/progressive-networking-serviceworker
         */
-        var networked = fetch(event.request)
+        var networked = fetch(event.request, { redirect: 'follow' })
           .then(fetchedFromNetwork, unableToResolve)
           .catch(unableToResolve);
 
