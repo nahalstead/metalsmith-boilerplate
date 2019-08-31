@@ -2,6 +2,10 @@
 
 var version = 'v1::';
 var offlineFundamentals = [
+  '/',
+  '/projects/piefingers',
+  '/projects/simple-slider',
+  '/projects/thumbnail-gallery',
   '/assets/css/formatting.css',
   '/assets/css/projects.css',
   '/assets/js/gallery-script.js'
