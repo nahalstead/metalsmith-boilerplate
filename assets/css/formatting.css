@@ -179,7 +179,7 @@ main {
     width: 45%;
 }
 @media only screen and (max-width:767px) {
-    body {
+	body {
 	background: #fff !important;
 	color: #000;
 	font-family: Arial, sans-serif;
@@ -187,22 +187,21 @@ main {
 	line-height: 24px;
 	margin: 0;
 	overflow-x: hidden;
-
 	-webkit-text-size-adjust: 100%;
 	text-rendering: optimizeLegibility;
 	padding-top: 44px;
+	}
+	.imageWrapper {
+	max-width: 100%;
+	width: 100%;
+	}
+	.text-contents {
+	max-width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	}
 }
 
-    .imageWrapper {
-        max-width: 100%;
-        width: 100%;
-    }
-    .text-contents {
-    max-width: 100%;
-    display: inline-block;
-    vertical-align: top;
-    }
-}
 .slider, .slideshow_thumbnails {
     padding: 30px 0px 0px 0px;
 }
@@ -255,7 +254,7 @@ main {
 	background: rgba(245, 245, 245, 0.97);
 	height: 44px;
 	position: fixed;
-	top: 0;
+	bottom: 0;
 	left: 0;
 	right: 0;
 	z-index: 999;
@@ -324,7 +323,7 @@ body.dark .nav_svg {
 
 .top_line {
 	background: #333;
-	height: 1px;
+	height: 0px;
 	position: absolute;
 	top: -1px;
 	left: 0;
@@ -334,7 +333,7 @@ body.dark .nav_svg {
 
 .bottom_line {
 	background: rgba(0, 0, 0, 0.15);
-	height: 1px;
+	height: 0px;
 	position: absolute;
 	bottom: -1px; left: 0; right: 0;
 	z-index: 99;
