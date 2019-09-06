@@ -9,20 +9,37 @@
             </div>
             <div class="text-contents">
             <div class="project_nav">
-             
-                    <a class="prev" href="{{{previous.url}}}">&#9664;</a>
-            
-                    <a href="/" class="grid-icon grid-icon--line2">
-                    <span class="layer layer--primary">
-                    <span></span><span></span>
-                    </span>
-                    <span class="layer layer--secondary">
-                    <span></span><span></span>
-                    </span>
+                <div class="project_arrows">
+                    <a href="{{{previous.url}}} class="project_prev link prev" rel="prev_project">
+                        <svg viewBox="0 0 10 10" height="10" width="10" version="1.1">
+                            <polygon class="nav_svg" points="10,10 0,5 10,0 "/>
+                        </svg>
+                        <div class="loadspin">
+                            <img src="/_gfx/loadingAnim.gif" height="10" width="10" />
+                        </div>
                     </a>
-        
-                    <a class="next right" href="{{{next.url}}}">&#9654;</a>
-            
+
+                    <a href="/" class="project_close link">
+                        <svg viewBox="0 0 13 13" height="13" width="13" version="1.1">
+                            <rect class="nav_svg" width="5" height="5"/>
+                            <rect class="nav_svg" x="8" width="5" height="5"/>
+                            <rect class="nav_svg" x="8" y="8" width="5" height="5"/>
+                            <rect class="nav_svg" y="8" width="5" height="5"/>
+                        </svg>
+                        <div class="loadspin">
+                            <img src="assets/img/loadingAnim.gif" height="10" width="10" />
+                        </div>
+                    </a>
+
+                    <a href="{{{next.url}}} class="project_next link next" rel="next_project">
+                        <svg viewBox="0 0 10 10" height="10" width="10" version="1.1">
+                            <polygon class="nav_svg" points="0,0 10,5 0,10 "/>
+                        </svg>
+                        <div class="loadspin">
+                            <img src="assets/img/loadingAnim.gif" height="10" width="10" />
+                        </div>
+                    </a>
+                </div>
             </div>
             <h1>{{ title }}</h1>
             {{{ contents }}}     
