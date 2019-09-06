@@ -277,6 +277,64 @@ main {
   float: right;
   margin-right: 1px;
 }
+.toolset {
+	background: rgba(245, 245, 245, 0.97);
+	height: 44px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+/* Dark counterpart: */
+body.dark .toolset {
+	background: rgba(25, 25, 25, 0.97);
+	top: 1px;
+}
+
+.toolset .bottom_line {
+	bottom: auto;
+	bottom: -1px;
+	display: block;
+}
+
+.toolset .link {
+	color: #999;
+	display: block;
+	float: left;
+	height: 44px;
+	padding: 18px;
+	text-decoration: none;
+	position: relative;
+}
+
+.toolset svg {
+	display: block;
+}
+
+.toolset .navigation_toggle {
+	position: absolute;
+	top: 0; right: 0;
+	z-index: 9;
+}
+
+.toolset .project_arrows {
+	float: left;
+	width: 135px;
+}
+
+.toolset .project_arrows > div {
+	border-right: 1px solid #ccc;
+	width: 45px;
+}
+/* Dark counterpart: */
+body.dark .toolset .project_arrows > div {
+	border-right: 1px solid #333;
+}
+
+.project_open .toolset .project_arrows {
+	display: block;
+}
 /************ Grid Icon Styles *********/
 @import "compass";
 
