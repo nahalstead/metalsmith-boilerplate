@@ -200,6 +200,13 @@ main {
 	display: inline-block;
 	vertical-align: top;
 	}
+	.project h1 {
+	position: relative;
+	left: 0;
+	text-align: left;
+	top: 0;
+	margin: 25px 0px 0px 0px;
+	}
 }
 
 .slider, .slideshow_thumbnails {
