@@ -49,15 +49,7 @@
                 </div>
                 <div class="nav_container" id="nav_container" data-view="Navigation" data-set="Navigation">
                 {{#navigation}}
-		{{#each collections.pages}}
-        <li class="menu__item" {{#is this.path @root.path }}aria-current="page"{{/is}}>
-            {{#if this.path }}
-            <a href="/{{ this.path }}/" class="menu__link">{{ this.title }}</a>
-            {{ else }}
-            <a href="/" class="menu__link">{{ this.title }}</a>
-            {{/if}}
-        </li>
-        {{/each}}
+		 {{> nav }}
                 <div class="{{ type }}_link" id="p{{ id }}" {{#if link_url }}href="{{ link_url }}" rel="linkage"{{else}}rel="history" href="{{ url }}"{{/if}}>{{ title_no_html }}</div>
                 {{/navigation}}
                 <div class="bottom_line"></div>
