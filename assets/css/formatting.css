@@ -265,6 +265,7 @@ main {
 	left: 0;
 	right: 0;
 	z-index: 999;
+	padding: 0px 35px 0px 35px;
 }
 /* Dark counterpart: */
 body.dark .toolset {
