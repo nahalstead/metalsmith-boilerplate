@@ -1,5 +1,5 @@
 body {
-    font-family: "Futura PT", sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     margin: 0;
 }
 body {
@@ -140,7 +140,7 @@ a {
         font-family: Open Sans, Helvetica, arial, sans-serif;
         font-weight: normal;
         letter-spacing: 0px;
-        font-family: "futura-pt";
+        font-family: 'Didact Gothic', sans-serif;
         text-transform: none;
         letter-spacing: .04em;
         font-weight: 400;
@@ -330,7 +330,7 @@ a {
     font-family: Open Sans, Helvetica, arial, sans-serif;
     font-weight: normal;
     letter-spacing: 0px;
-    font-family: "Futura PT";
+    font-family: 'Didact Gothic', sans-serif;
     text-transform: none;
     letter-spacing: .04em;
     font-weight: lighter;
