@@ -26,6 +26,7 @@ metalsmith(__dirname)
         site: {
             name: 'Nick Halstead',
             description: "Photography by Nick Antony Halstead",
+            sitetitle: 'Nick Halstead',
             generatorname: "Metalsmith",
             generatorurl: "http://metalsmith.io/",
             generatortitle: "Check out Metalsmith!",
