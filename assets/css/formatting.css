@@ -379,15 +379,16 @@ header {
     letter-spacing: 1px;
     font-size: 18px;
 }
-.logo {
-    position: fixed;
-    top: 35px;
-    left: 35px;
+#header, #footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
 }
-.menu {
-    position: fixed;
-    top: 35px;
-    right: 35px;
+#header, #footer {
+    padding: 30px 30px;
+}
+#logo, #topNav {
+    float: left;
 }
 .menu__list {
     list-style-type: none;
