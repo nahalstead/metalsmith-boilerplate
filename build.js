@@ -25,7 +25,7 @@ metalsmith(__dirname)
     .metadata({
         site: {
             name: 'Nick Halstead',
-            description: "Junior Web Developer & Designer based in Largs, Scotland",
+            description: "Photography by Nick Antony Halstead",
             generatorname: "Metalsmith",
             generatorurl: "http://metalsmith.io/",
             generatortitle: "Check out Metalsmith!",
@@ -51,7 +51,7 @@ metalsmith(__dirname)
         pages: {
             pattern: '*.md',
             sortBy: 'menu-order',
-            limit: 1
+            limit: 3
         },
         projects: {
             pattern: 'projects/*.md',
@@ -69,7 +69,7 @@ metalsmith(__dirname)
         partials: 'layouts/partials'
     }))
     .use(sitemap({
-        hostname: "https://andreasvirkus.me"
+        hostname: "https://www.nickhalstead.co.uk"
     }))
     .build(function (err) {
         if (err) throw err;
