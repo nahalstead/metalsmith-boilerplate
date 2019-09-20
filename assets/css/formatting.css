@@ -16,6 +16,352 @@ a {
     color: #000;
     text-decoration: none;
 }
+/*********** Mobile Menu **************/
+#mobileMenuLink {
+    display: none;
+    margin: 15px 0 0;
+}
+#mobileNav {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height,.3s;
+    -moz-transition: max-height,.3s;
+    -o-transition: max-height,.3s;
+    transition: max-height,.3s;
+}
+.flexbox:not(.ie11) body {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.flexbox:not(.ie11) #canvasWrapper {
+    width: 100%
+}
+
+.flexbox:not(.ie11) * {
+    -webkit-flex: 0 1 auto;
+    -moz-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    flex: 0 1 main-size
+}
+@media only screen and (max-width:800px) {
+	#mobileNav nav ul li {
+	    display: block;
+	    text-align: center;
+	    float: none !important;
+	}
+	    #canvas {
+        margin-top: 0 !important;
+        position: static !important
+    }
+    #headerWrapper {
+        position: static
+    }
+    #header,
+    #pageWrapper,
+    #footer {
+        padding: 30px 20px
+    }
+    #logo {
+        float: none !important;
+        margin: 0 !important;
+        text-align: center !important
+    }
+    #topNav {
+        position: static !important;
+        right: auto !important
+    }
+    #topNav nav {
+        bottom: 0;
+        z-index: 10000
+    }
+    #topNav nav a {
+        line-height: 1.5em !important;
+        margin: 0;
+        padding: 5px 0
+    }
+    #topNav nav li {
+        margin: 0 25px 0 0 !important
+    }
+    #topNav nav li.folder ul li {
+        margin: 0
+    }
+    #topNav nav li.folder ul li a {
+        padding: 3.125px 12.5px
+    }
+    #page {
+        padding: 0 !important;
+        float: none !important
+    }
+    #mainContent {
+        width: auto !important;
+        margin: 0 !important
+    }
+    #canvasWrapper,
+    #galleryWrapper,
+    #slideshowWrapper,
+    #slideshow {
+        overflow: visible !important
+    }
+    #header #topNav {
+        display: none
+    }
+	    #mobileMenuLink {
+        margin: 0;
+        display: block;
+        font-family: Open Sans, Helvetica, arial, sans-serif;
+        font-weight: normal;
+        letter-spacing: 0px;
+        font-family: "futura-pt";
+        text-transform: none;
+        letter-spacing: .04em;
+        font-weight: 400;
+        font-style: normal;
+        padding: 15px;
+        background-color: #f7f7f7;
+        text-align: center
+    }
+    #mobileMenuLink a {
+        color: #111
+    }
+    #mobileMenuLink a {
+        cursor: pointer;
+        display: block;
+        margin: 0;
+        font-size: 14px !important;
+        text-transform: uppercase
+    }
+    #header #mobileNav {
+        position: static;
+        top: auto
+    }
+    #mobileNav .wrapper {
+        padding: 1.5em 0
+    }
+    #mobileNav nav+nav {
+        margin: 0 !important
+    }
+    #mobileNav nav ul li {
+        display: block;
+        text-align: center;
+        float: none !important
+    }
+    #mobileNav a,
+    #mobileNav label {
+        font-size: 16px !important;
+        line-height: 1.2em !important;
+        padding: .7em;
+        display: block
+    }
+    #mobileNav li a:after {
+        display: none !important
+    }
+    #mobileNav .folder>a:before,
+    #mobileNav .folder>label:before {
+        content: '+ '
+    }
+    #mobileNav .folder .subnav {
+        max-height: 0;
+        overflow: hidden;
+        margin-top: 0 !important;
+        -webkit-transition: max-height, .3s;
+        -moz-transition: max-height, .3s;
+        -o-transition: max-height, .3s;
+        transition: max-height, .3s
+    }
+    #mobileNav .folder ul {
+        overflow: hidden;
+        padding: 6.25px 0;
+        display: block;
+        background-color: #f7f7f7
+    }
+    #mobileNav .folder ul a {
+        color: #111
+    }
+    #mobileNav .folder.folder-open>a:before,
+    #mobileNav .folder.folder-open>label:before {
+        content: '- '
+    }
+    #mobileNav .folder.folder-open .subnav {
+        max-height: 999px
+    }
+    #mobileNav.menu-open {
+        max-height: 999px
+    }
+    #footer #footerBlocks-1,
+    #footerBlocks-2 {
+        width: auto;
+        float: none;
+        text-align: center
+    }
+    #footer #footerBlocks-1 .text-align-right,
+    #footerBlocks-2 .text-align-right,
+    #footer #footerBlocks-1 .text-align-left,
+    #footerBlocks-2 .text-align-left,
+    #footer #footerBlocks-1 .social-links,
+    #footerBlocks-2 .social-links {
+        text-align: center
+    }
+    #slideshowWrapper.mobile-gallery {
+        margin: 0 !important;
+        height: auto !important
+    }
+    #slideshowWrapper.mobile-gallery .sqs-wrapper {
+        width: auto !important;
+        left: auto !important;
+        top: auto !important
+    }
+    #slideshowWrapper.mobile-gallery #slideshow {
+        height: auto !important;
+        background-color: transparent !important
+    }
+    #slideshowWrapper.mobile-gallery #galleryWrapper,
+    #slideshowWrapper.mobile-gallery .gallery-controls {
+        position: static !important
+    }
+    #slideshowWrapper.mobile-gallery #slideshow .slide {
+        display: block !important;
+        position: relative !important;
+        opacity: 1 !important;
+        height: auto !important;
+        width: 100% !important
+    }
+    #slideshowWrapper.mobile-gallery #slideshow .slide img {
+        position: static !important;
+        height: auto !important;
+        width: 100% !important
+    }
+    #slideshowWrapper.mobile-gallery #slideshow .slide .image-description {
+        display: block;
+        position: static;
+        background: none;
+        color: #111;
+        opacity: 1;
+        padding: 20px
+    }
+    #slideshowWrapper.mobile-gallery .gallery-controls {
+        display: none !important
+    }
+    #footerWrapper center {
+        display: block
+    }
+    .category-nav-toggle-label {
+        display: block;
+        visibility: visible;
+        width: 100%;
+        z-index: 2;
+        position: absolute;
+        top: .5em;
+        right: 12px;
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 1.8em;
+        text-align: right
+    }
+    .category-nav-toggle-label:after {
+        font-size: 21px;
+        content: "+";
+        display: block;
+        text-align: right
+    }
+    #categoryNav {
+        margin-bottom: 25px;
+        position: relative;
+        padding: 0 12px;
+        background-color: #f7f7f7
+    }
+    #categoryNav a {
+        color: #111
+    }
+    #categoryNav ul {
+        text-align: left;
+        font-size: 14px;
+        margin: 0px 10% 0 0;
+        padding: 0;
+        line-height: 1.8em
+    }
+    #categoryNav ul li {
+        margin: 0;
+        display: none
+    }
+    #categoryNav ul li.filter {
+        display: block;
+        visibility: visible
+    }
+    #categoryNav ul li a {
+        display: block;
+        font-size: 14px;
+        padding: .5em 0
+    }
+}
+/*********** Top Nav ******************/
+#headerWrapper nav,
+#headerWrapper nav a,
+#mobileNav nav a,
+#mobileNav nav label {
+    font-family: Open Sans, Helvetica, arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0px;
+    font-family: "futura-pt";
+    text-transform: none;
+    letter-spacing: .04em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px
+}
+
+nav ul,
+nav ol {
+    margin: 0
+}
+
+#topNav {
+    position: relative
+}
+
+#topNav nav {
+    position: relative;
+    bottom: -10px;
+    margin-top: 0;
+    float: left
+}
+
+#topNav nav ul {
+    float: left
+}
+
+#topNav nav li {
+    float: left;
+    position: relative
+}
+
+#topNav nav li a {
+    line-height: 30px;
+    display: inline-block
+}
+
+#topNav nav li+li {
+    margin-left: 25px
+}
 /*********** Header Styles ************/
 header {
     letter-spacing: 1px;
