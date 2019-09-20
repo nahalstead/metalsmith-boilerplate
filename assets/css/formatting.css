@@ -3,6 +3,9 @@ body {
     margin: 0;
 }
 body {
+    min-height: 100%;
+}
+body {
     font-weight: normal;
     letter-spacing: 0px;
     line-height: 1.6em;
