@@ -7,7 +7,7 @@ body {
     letter-spacing: 0px;
     line-height: 1.6em;
     letter-spacing: .01em;
-    font-weight: 400;
+    font-weight: lighter;
     font-style: normal;
     font-size: 17px;
     -webkit-font-smoothing: subpixel antialiasing !important;
@@ -333,7 +333,7 @@ a {
     font-family: "Futura PT";
     text-transform: none;
     letter-spacing: .04em;
-    font-weight: 400;
+    font-weight: lighter;
     font-style: normal;
     font-size: 15px
 }
