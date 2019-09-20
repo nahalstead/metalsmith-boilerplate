@@ -10,54 +10,7 @@
 	    <div class="text-contents">
             <h1>{{ title }}</h1>
             {{{ contents }}}     
-	    </div>
-            <div class="project_nav">
-                <div class="toolset">
-                    <div class="project_arrows">
-                        <a href="{{{previous.url}}}" class="project_prev link prev" rel="prev_project">
-                            <svg viewBox="0 0 10 10" height="10" width="10" version="1.1">
-                                <polygon class="nav_svg" points="10,10 0,5 10,0 "/>
-                            </svg>
-                            <div class="loadspin">
-                                <img src="assets/img/loadingAnim.gif" height="10" width="10" />
-                            </div>
-                        </a>
-
-                        <a href="/" class="project_close link">
-                            <svg viewBox="0 0 13 13" height="13" width="13" version="1.1">
-                                <rect class="nav_svg" width="5" height="5"/>
-                                <rect class="nav_svg" x="8" width="5" height="5"/>
-                                <rect class="nav_svg" x="8" y="8" width="5" height="5"/>
-                                <rect class="nav_svg" y="8" width="5" height="5"/>
-                            </svg>
-                            <div class="loadspin">
-                                <img src="assets/img/loadingAnim.gif" height="10" width="10" />
-                            </div>
-                        </a>
-
-                        <a href="{{{next.url}}}" class="project_next link next" rel="next_project">
-                            <svg viewBox="0 0 10 10" height="10" width="10" version="1.1">
-                                <polygon class="nav_svg" points="0,0 10,5 0,10 "/>
-                            </svg>
-                            <div class="loadspin">
-                                <img src="assets/img/loadingAnim.gif" height="10" width="10" />
-                            </div>
-                        </a>
-                    </div>
-                    <div class="top_line"></div>
-		            <div class="bottom_line"></div>
-                </div>
-                <div class="nav_container" id="nav_container" data-view="Navigation" data-set="Navigation">
-
-		 {{> nav }}
-                <div class="{{ type }}_link" id="p{{ id }}" {{#if link_url }}href="{{ link_url }}" rel="linkage"{{else}}rel="history" href="{{ url }}"{{/if}}>{{ title_no_html }}</div>
-
-                <div class="bottom_line"></div>
-                </div>
-
-                <div class="nav_screen"></div>
-            </div>
-	    
+	    </div>	    
         </div>    
     </main>
 
