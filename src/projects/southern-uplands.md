@@ -1,5 +1,5 @@
 ---
-title: Piefingers
+title: Southern Uplands
 layout: southern-uplands.hbs
 collection: projects
 description: Southern Uplands - Photography by Nick Antony Halstead
