@@ -1,5 +1,5 @@
 ---
-title: Southern Uplands
+title: Central Lowlands
 layout: southern-uplands.hbs
 collection: projects
 description: Southern Uplands - Photography by Nick Antony Halstead
