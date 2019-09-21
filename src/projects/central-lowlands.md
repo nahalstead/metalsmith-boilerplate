@@ -1,8 +1,8 @@
 ---
 title: Central Lowlands
-layout: southern-uplands.hbs
+layout: central-lowlands.hbs
 collection: projects
-description: Southern Uplands - Photography by Nick Antony Halstead
+description: Central Lowlands - Photography by Nick Antony Halstead
 date: 07-24-2019
 image: "images/piefingers/4265.jpg" 
 url: "/projects/southern-uplands"
