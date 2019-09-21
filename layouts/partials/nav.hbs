@@ -1,5 +1,5 @@
-<nav class="menu" role="navigation">
-    <ul id="nav" class="menu__list">
+<nav class="main-nav" role="navigation">
+    <ul id="nav" data-content-field="navigation">
         {{#each collections.pages}}
         <li class="menu__item" {{#is this.path @root.path }}aria-current="page"{{/is}}>
             {{#if this.path }}
