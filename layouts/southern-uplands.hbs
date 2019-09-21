@@ -1,0 +1,35 @@
+{{> doc-head }}
+<link href="/assets/css/projects.css" rel="stylesheet">
+<body class="project">
+    {{> header }}
+
+    <div id="pageWrapper">
+      <section id="page">
+        <div id="mainContent" role="main" data-content-field="main-content">
+          <div id="slideshowWrapper" class="mobile-gallery">
+            <div id="slideshow" class="sqs-gallery-design-strip">
+              <div class="sqs-wrapper">
+                <div class="slide active">
+                  <img src="../images/4265.jpg"/>
+                </div>
+                <div class="slide active">
+                  <img src="../images/4265.jpg"/>
+                </div>
+                <div class="slide active">
+                  <img src="../images/4265.jpg"/>
+                </div>
+                <div class="slide active">
+                  <img src="../images/4265.jpg"/>
+                </div> 
+              </div><!-- close sqs-wrapper -->
+            </div><!-- close slideshow -->
+          </div><!-- close slideshowWrapper -->
+          <div class="text-contents">
+              {{{ contents }}}
+          </div><!-- close text-contents -->
+        </div><!-- close mainContent --> 
+      </section><!-- close page -->
+    </div><!-- close pageWrapper -->
+    {{> footer }}
+</body>
+</html>
