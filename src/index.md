@@ -1,5 +1,5 @@
 ---
-title: Nick Halstead
+title: Home
 layout: projects.hbs
 menu-order: 5
 ---
