@@ -52,7 +52,7 @@ metalsmith(__dirname)
         pages: {
             pattern: '*.md',
             sortBy: 'menu-order',
-            limit: 3
+            limit: 50
         },
         projects: {
             pattern: 'projects/*.md',
