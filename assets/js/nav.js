@@ -5,7 +5,7 @@ var setupNavigation = function() {
       if ('#topNav .subnav') {
         var subnavMarginTop = parseInt(('#topNav .subnav').getStyle('marginTop'),10);
         if (subnavMarginTop > 0) {
-          Y.all('#topNav .subnav').setStyle('marginTop', 0);
+          ('#topNav .subnav').setStyle('marginTop', 0);
         }
       }
 
