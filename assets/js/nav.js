@@ -1,4 +1,4 @@
-setupNavigation: function() {
+var setupNavigation = function() {
 
       // MAKE SURE SUBNAV MARGIN-TOP NOT > 0 ////////////////////////////
 
@@ -31,3 +31,5 @@ setupNavigation: function() {
         this.navBreaker();
       }, this);
     }
+// run slider
+$(document).ready(setupNavigation);
