@@ -2,7 +2,7 @@ var setupNavigation = function() {
 
       // MAKE SURE SUBNAV MARGIN-TOP NOT > 0 ////////////////////////////
 
-      if (Y.one('#topNav .subnav')) {
+      if ('#topNav .subnav') {
         var subnavMarginTop = parseInt(Y.one('#topNav .subnav').getStyle('marginTop'),10);
         if (subnavMarginTop > 0) {
           Y.all('#topNav .subnav').setStyle('marginTop', 0);
@@ -10,12 +10,12 @@ var setupNavigation = function() {
       }
 
       // Mobile Nav /////////////////////////////////////////////////////
-      if (Y.one('#mobileMenuLink a')) {
-        Y.one('#mobileMenuLink a').on('click', function(e){
-          Y.one('#mobileNav').toggleClass('menu-open');
+      if ('#mobileMenuLink a') {
+        ('#mobileMenuLink a').on('click', function(e){
+          ('#mobileNav').toggleClass('menu-open');
         });
 
-        var mobileNav = Y.one('#mobileNav');
+        var mobileNav = ('#mobileNav');
         mobileNav && mobileNav.delegate('click', function(e) {
           e.currentTarget.ancestor('.folder').toggleClass('folder-open');
         }, '.folder > label');
