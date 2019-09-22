@@ -1,12 +1,12 @@
 $(document).ready(function() {
     var width = 0;
-    $('.slide img').each(function() {
+    $('.slide').each(function() {
     width += $(this).outerWidth( true );
     });
     $('.sqs-wrapper').css('width', width + 250);
-    console.log('width');
+    console.log(width);
 
-    var sliderWidth = 0;
+    var sliderWidth = 500;
     var slider = $('.sqs-wrapper');
     var sliderCount = $('.slide', slider).length;
     slider.width(sliderCount * sliderWidth);
