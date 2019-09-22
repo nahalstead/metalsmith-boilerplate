@@ -36,9 +36,17 @@ $(document).ready(function() {
     console.log(sliderCount);
     console.log(sliderWidth);
     
+    var data = e.target.getAttribute('data-slide-url'),
+    url = data + ".html";
+    history.pushState(null, null, url);
+    
+  // here we can fix the current classes
+  // and update text with the data variable
+  // and make an Ajax request for the .content element
+  // finally we can manually update the document’s title
+    
     $('.gallery-next').click(function() {
         $('.sqs-wrapper').animate({left: '-='+sliderWidth}, 500);
-        window.history.pushState({$(".sqs-wrapper .slide").attr("data-slide-url")}, "Title", "/new-url");
     });
     $('.gallery-prev').click(function() {
         $('.sqs-wrapper').animate({left: '-='+sliderWidth}, 500);
