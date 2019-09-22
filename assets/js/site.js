@@ -4,6 +4,7 @@ $(document).ready(function() {
     width += $(this).outerWidth( true );
     });
     $('.sqs-wrapper').css('width', width + 250);
+    console.log('width');
 
     var sliderWidth = 0;
     var slider = $('.sqs-wrapper');
