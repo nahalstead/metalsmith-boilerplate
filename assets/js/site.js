@@ -29,6 +29,44 @@ $(document).ready(function() {
     $('.sqs-wrapper').css('width', width + 250);
     
 // Initiate slider
+    
+    $('.sqs-wrapper').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    
+    
     var sliderWidth = $('.sqs-wrapper .slide').width;
     var slider = $('.sqs-wrapper');
     var sliderCount = $('.slide', slider).length;
