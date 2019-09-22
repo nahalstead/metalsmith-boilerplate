@@ -9,5 +9,14 @@
             {{/if}}
         </li>
         {{/each}}
+        {{#each collections.projects}}
+        <li class="menu__item" {{#is this.path @root.path }}aria-current="page"{{/is}}>
+            {{#if this.path }}
+            <a href="/{{ this.path }}/" class="menu__link">{{ this.title }}</a>
+            {{ else }}
+            <a href="/" class="menu__link">{{ this.title }}</a>
+            {{/if}}
+        </li>
+        {{/each}}
     </ul>
 </nav>
