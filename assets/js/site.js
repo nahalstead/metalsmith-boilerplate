@@ -4,15 +4,15 @@ $(document).ready(function() {
     width += $(this).outerWidth( true );
     });
     $('.sqs-wrapper').css('width', width + 250);
-});
-var slider = $('#slideshow');
-var sliderCount = $('div', slider).length;
-slider.width(sliderCount * sliderWidth);
-var sliderWidth = $('.slide').each(function() {
+
+    var slider = $('.sqs-wrapper');
+    var sliderCount = $('div', slider).length;
+    slider.width(sliderCount * sliderWidth);
+    var sliderWidth = $('.slide').each(function() {
     width += $(this).outerWidth( true );
     });
-$(document).ready(function() {
+
     $('.gallery-next').click(function() {
-        $('#slideshow').animate({left: '-='+sliderWidth}, 500);
+        $('.sqs-wrapper').animate({left: '-='+sliderWidth}, 500);
     });
 });
