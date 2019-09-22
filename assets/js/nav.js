@@ -1,13 +1,5 @@
 var setupNavigation = function() {
 
-      // MAKE SURE SUBNAV MARGIN-TOP NOT > 0 ////////////////////////////
-
-      if ('#topNav .subnav') {
-        var subnavMarginTop = parseInt(('#topNav .subnav').getStyle('marginTop'),10);
-        if (subnavMarginTop > 0) {
-          ('#topNav .subnav').setStyle('marginTop', 0);
-        }
-      }
 
       // Mobile Nav /////////////////////////////////////////////////////
       if ('#mobileMenuLink a') {
