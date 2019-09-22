@@ -1,21 +1,21 @@
 // Count slides and thumbnails and assign to data-id for each element
-	$(document).ready(function() {
+$(document).ready(function() {
     var i = 0;
-    $(".slider img").each( function() {
+    $(".sqs-wrapper .slide").each( function() {
     $(this).attr("data-id", +i);
     i++;
     });
   });
  $(document).ready(function() {
     var i = 0;
-    $(".slider img").each( function() {
+    $(".sqs-wrapper .slide").each( function() {
     $(this).addClass(("image-") + (+i) );
     i++;
     });
   });
   $(document).ready(function() {
     var i = 0;
-    $(".slideshow_thumbnails img").each( function() {
+    $(".sqs-wrapper .slide").each( function() {
     $(this).attr("data-id", +i);
     i++;
     });
