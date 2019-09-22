@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     var sliderWidth = 0;
     var slider = $('.sqs-wrapper');
-    var sliderCount = $('div', slider).length;
+    var sliderCount = $('.slide', slider).length;
     slider.width(sliderCount * sliderWidth);
 
     $('.gallery-next').click(function() {
