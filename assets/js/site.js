@@ -10,6 +10,6 @@ var slideWidth = $('.slide').each(function() {
     });
 $(document).ready(function() {
     $('.gallery-next').click(function() {
-        $('.slider').animate({left: '-='+slideWidth}, 500);
+        $('#slideshow').animate({left: '-='+slideWidth}, 500);
     });
 });
