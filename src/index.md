@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: projects.hbs
-menu-order: 5
+menu-order: 1
 ---
 
 
