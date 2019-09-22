@@ -29,9 +29,7 @@ $(document).ready(function() {
     $('.sqs-wrapper').css('width', width + 250);
     
 // Initiate slider
-    var sliderWidth = $('.sqs-wrapper .slide').each(function() {
-    width += $(this).outerWidth( true );
-    });
+    var sliderWidth = $('.sqs-wrapper .slide').width;
     var slider = $('.sqs-wrapper');
     var sliderCount = $('.slide', slider).length;
     slider.width(sliderCount * sliderWidth);
@@ -40,8 +38,9 @@ $(document).ready(function() {
     
     $('.gallery-next').click(function() {
         $('.sqs-wrapper').animate({left: '-='+sliderWidth}, 500);
+        window.history.pushState({$(".sqs-wrapper .slide").attr("data-slide-url")}, "Title", "/new-url");
     });
     $('.gallery-prev').click(function() {
-        $('.sqs-wrapper').animate({right: '-='+sliderWidth}, 500);
+        $('.sqs-wrapper').animate({left: '-='+sliderWidth}, 500);
     });
 });
