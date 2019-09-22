@@ -2,9 +2,9 @@ var setupNavigation = function() {
 
 
       // Mobile Nav /////////////////////////////////////////////////////
-      if ('#mobileMenuLink a') {
-        ('#mobileMenuLink a').on('click', function(e){
-          ('#mobileNav').toggleClass('menu-open');
+      if $('#mobileMenuLink a') {
+        $('#mobileMenuLink a').on('click', function(e){
+          $('#mobileNav').toggleClass('menu-open');
         }); 
 
       // Break Nav if too long for nav and logo
@@ -12,7 +12,7 @@ var setupNavigation = function() {
 
       this.vertAlignCanvas();
 
-      (window).on('resize', function () {
+      $(window).on('resize', function () {
         this.vertAlignCanvas();
         this.navBreaker();
       }, this);
