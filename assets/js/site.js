@@ -6,11 +6,14 @@ $(document).ready(function() {
     $('.sqs-wrapper').css('width', width + 250);
     console.log(width);
 
-    var sliderWidth = 500;
+    var sliderWidth = $('.slide').each(function() {
+    width += $(this).outerWidth( true );
+    });
     var slider = $('.sqs-wrapper');
     var sliderCount = $('.slide', slider).length;
     slider.width(sliderCount * sliderWidth);
     console.log(sliderCount);
+    console.log(sliderWidth);
     
     $('.gallery-next').click(function() {
         $('.sqs-wrapper').animate({left: '-='+sliderWidth}, 500);
