@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
     $('.sqs-wrapper').css('width', width + 250);
 });
-var slideWidth = $('.slide img').each(function() {
+var slideWidth = $('.slide').each(function() {
     width += $(this).outerWidth( true );
     });
 $(document).ready(function() {
