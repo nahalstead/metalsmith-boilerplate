@@ -1,11 +1,34 @@
+// Count slides and thumbnails and assign to data-id for each element
+	$(document).ready(function() {
+    var i = 0;
+    $(".slider img").each( function() {
+    $(this).attr("data-id", +i);
+    i++;
+    });
+  });
+ $(document).ready(function() {
+    var i = 0;
+    $(".slider img").each( function() {
+    $(this).addClass(("image-") + (+i) );
+    i++;
+    });
+  });
+  $(document).ready(function() {
+    var i = 0;
+    $(".slideshow_thumbnails img").each( function() {
+    $(this).attr("data-id", +i);
+    i++;
+    });
+  });
+// Set width for .sqs-wrapper
 $(document).ready(function() {
     var width = 0;
     $('.slide').each(function() {
     width += $(this).outerWidth( true );
     });
     $('.sqs-wrapper').css('width', width + 250);
-    console.log(width);
-
+    
+// Initiate slider
     var sliderWidth = $('.slide').each(function() {
     width += $(this).outerWidth( true );
     });
