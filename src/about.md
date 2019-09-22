@@ -2,6 +2,7 @@
 title: Info
 description: About Nick Antony Halstead
 layout: about.hbs
+image: "/assets/img/canada-nah.jpg"
 menu-order: 2
 ---
 
