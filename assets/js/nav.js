@@ -2,7 +2,7 @@ var setupNavigation = function() {
 
 
       // Mobile Nav /////////////////////////////////////////////////////
-      if $('#mobileMenuLink a') {
+      $('#mobileMenuLink a') {
         $('#mobileMenuLink a').on('click', function(e){
           $('#mobileNav').toggleClass('menu-open');
         }); 
