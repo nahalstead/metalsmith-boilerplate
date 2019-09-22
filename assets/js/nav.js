@@ -2,8 +2,7 @@ var setupNavigation = function() {
 
 
       // Mobile Nav /////////////////////////////////////////////////////
-      $('#mobileMenuLink a') {
-        $('#mobileMenuLink a').on('click', function(e){
+       $('#mobileMenuLink a').on('click', function(e){
           $('#mobileNav').toggleClass('menu-open');
         }); 
 
@@ -16,7 +15,7 @@ var setupNavigation = function() {
         this.vertAlignCanvas();
         this.navBreaker();
       }, this);
-    }
+    };
 };  
 // run slider
 $(document).ready(setupNavigation);
