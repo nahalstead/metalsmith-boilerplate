@@ -10,8 +10,12 @@ $(document).ready(function() {
     var slider = $('.sqs-wrapper');
     var sliderCount = $('.slide', slider).length;
     slider.width(sliderCount * sliderWidth);
-
+    console.log(sliderCount);
+    
     $('.gallery-next').click(function() {
         $('.sqs-wrapper').animate({left: '-='+sliderWidth}, 500);
+    });
+    $('.gallery-prev').click(function() {
+        $('.sqs-wrapper').animate({right: '-='+sliderWidth}, 500);
     });
 });
