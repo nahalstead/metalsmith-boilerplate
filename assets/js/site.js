@@ -36,7 +36,7 @@ $(document).ready(function() {
     console.log(sliderCount);
     console.log(sliderWidth);
     
-    var data = $('.slide').getAttribute('data-slide-url'),
+    var data = $('.slide').attr('data-slide-url'),
     url = data;
     history.pushState(null, null, url);
     
