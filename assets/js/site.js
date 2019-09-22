@@ -36,8 +36,8 @@ $(document).ready(function() {
     console.log(sliderCount);
     console.log(sliderWidth);
     
-    var data = e.target.getAttribute('data-slide-url'),
-    url = data + ".html";
+    var data = $('.slide').getAttribute('data-slide-url'),
+    url = data;
     history.pushState(null, null, url);
     
   // here we can fix the current classes
