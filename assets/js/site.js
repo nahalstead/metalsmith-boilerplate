@@ -21,18 +21,19 @@ $(document).ready(function() {
     });
   });
 // Set width for .sqs-wrapper
-$(document).ready(function() {
-    var width = 0;
-    $('.sqs-wrapper .slide').width(function() {
-    width += $(this).outerWidth( true );
-    });
-    $('.sqs-wrapper').css('width', width + 250);
+//$(document).ready(function() {
+//   var width = 0;
+//    $('.sqs-wrapper .slide').width(function() {
+//    width += $(this).outerWidth( true );
+//    });
+//    $('.sqs-wrapper').css('width', width + 250);
     
 // Initiate slider
         $('.sqs-wrapper').flickity({
         // options
         accessibility: true,
         setGallerySize: false,
+        draggable: false,    
         cellAlign: 'left',
         contain: true,
         hash: true,
