@@ -18606,6 +18606,14 @@ body.page-alignment-right.collection-type-gallery #page {
 }
 
 @media only screen and (max-width:800px) {
+    .flickity-slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    }
+    .flickity-button {
+        display: none;
+    }
     .sqs-layout [class*=sqs-col] {
         float: none !important;
         width: auto !important
