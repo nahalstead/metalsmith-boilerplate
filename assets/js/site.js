@@ -40,31 +40,5 @@ $(document).ready(function() {
         autoplay: false,
         imagesLoaded: true,
         pageDots: false,
-        groupCells: false 
-}) 
-
-    
-    
-    var sliderWidth = $('.sqs-wrapper .slide').width;
-    var slider = $('.sqs-wrapper');
-    var sliderCount = $('.slide', slider).length;
-    slider.width(sliderCount * sliderWidth);
-//   console.log(sliderCount);
-//    console.log(sliderWidth);
-//    
-//    var data = $('.slide').attr('data-slide-url'),
-//    url = data;
-//    history.pushState(null, null, url);
-    
-  // here we can fix the current classes
-  // and update text with the data variable
-  // and make an Ajax request for the .content element
-  // finally we can manually update the document’s title
-    
-    $('.gallery-next').click(function() {
-        $('.sqs-wrapper').animate({left: '-='+sliderWidth}, 500);
-    });
-    $('.gallery-prev').click(function() {
-        $('.sqs-wrapper').animate({left: '-='+sliderWidth}, 500);
-    });
+        groupCells: false   
 });
