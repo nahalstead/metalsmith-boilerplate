@@ -18817,7 +18817,8 @@ body.page-alignment-right.collection-type-gallery #page {
         position: relative !important;
         opacity: 1 !important;
         height: auto !important;
-        width: 100% !important
+        width: 100% !important;
+        left: 0 !important;
     }
     #slideshowWrapper.mobile-gallery #slideshow .slide img {
         position: static !important;
