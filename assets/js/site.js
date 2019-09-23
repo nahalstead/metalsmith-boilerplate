@@ -27,8 +27,9 @@ $(document).ready(function() {
 //    width += $(this).outerWidth( true );
 //    });
 //    $('.sqs-wrapper').css('width', width + 250);
-    
+ 
 // Initiate slider
+$(document).ready(function() {   
         $('.sqs-wrapper').flickity({
         // options
         accessibility: true,
@@ -41,4 +42,5 @@ $(document).ready(function() {
         imagesLoaded: true,
         pageDots: false,
         groupCells: false   
-});
+    });
+});    
