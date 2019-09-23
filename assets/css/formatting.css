@@ -19179,3 +19179,22 @@ body.page-alignment-right.collection-type-gallery #page {
 
 
 /*! Squarespace LESS Compiler  (less.js language v1.3.3)  */
+
+/** Flickity styles  **/
+/* smaller, dark, rounded square */
+.flickity-button {
+  background: #333;
+}
+.flickity-button:hover {
+  background: #F90;
+}
+
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+/* icon color */
+.flickity-button-icon {
+  fill: white;
+}
