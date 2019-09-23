@@ -29,13 +29,17 @@ $(document).ready(function() {
     $('.sqs-wrapper').css('width', width + 250);
     
 // Initiate slider
-    $('.sqs-wrapper').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-    hash: true,
-    autoplay: false,
-    imagesLoaded: true 
+        $('.sqs-wrapper').flickity({
+        // options
+        accessibility: true,
+        setGallerySize: false,
+        cellAlign: 'left',
+        contain: true,
+        hash: true,
+        autoplay: false,
+        imagesLoaded: true,
+        pageDots: false,
+        groupCells: false 
 }) 
 
     
