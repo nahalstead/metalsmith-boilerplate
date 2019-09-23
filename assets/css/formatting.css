@@ -17522,7 +17522,7 @@ body {
     letter-spacing: .01em;
     font-weight: 400;
     font-style: normal;
-    font-size: 17px;
+    font-size: 14px;
     -webkit-font-smoothing: subpixel antialiasing !important
 }
 
@@ -17551,7 +17551,7 @@ h1 {
 
 h2,
 .comment-count {
-    font-size: 19.200000000000003px
+    font-size: 16.2px
 }
 
 h3 {
@@ -17565,11 +17565,11 @@ h3 {
     letter-spacing: .04em;
     font-weight: 300;
     font-style: normal;
-    font-size: 17px
+    font-size: 14px
 }
 
 .comment-count {
-    font-size: 19.200000000000003px !important
+    font-size: 16.200000000000003px !important
 }
 
 p {
@@ -17581,7 +17581,7 @@ p {
     letter-spacing: .01em;
     font-weight: 400;
     font-style: normal;
-    font-size: 17px;
+    font-size: 14px;
     margin: 0 0 1em
 }
 
@@ -17601,7 +17601,7 @@ blockquote {
     font-weight: 400;
     font-style: italic;
     padding: 0;
-    font-size: 21px;
+    font-size: 14px;
     border: none
 }
 
