@@ -19198,3 +19198,9 @@ body.page-alignment-right.collection-type-gallery #page {
 .flickity-button-icon {
   fill: white;
 }
+
+/*** Column styles ***/
+.image-block img {
+    max-width: 100%;
+    height: auto;
+}
