@@ -29,54 +29,27 @@ $(document).ready(function() {
     $('.sqs-wrapper').css('width', width + 250);
     
 // Initiate slider
-    
-    $('.sqs-wrapper').slick({
-  dots: false,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
+    $('.sqs-wrapper').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    hash: true,
+    autoplay: false,
+    imagesLoaded: true 
+}) 
+
     
     
     var sliderWidth = $('.sqs-wrapper .slide').width;
     var slider = $('.sqs-wrapper');
     var sliderCount = $('.slide', slider).length;
     slider.width(sliderCount * sliderWidth);
-    console.log(sliderCount);
-    console.log(sliderWidth);
-    
-    var data = $('.slide').attr('data-slide-url'),
-    url = data;
-    history.pushState(null, null, url);
+//   console.log(sliderCount);
+//    console.log(sliderWidth);
+//    
+//    var data = $('.slide').attr('data-slide-url'),
+//    url = data;
+//    history.pushState(null, null, url);
     
   // here we can fix the current classes
   // and update text with the data variable
