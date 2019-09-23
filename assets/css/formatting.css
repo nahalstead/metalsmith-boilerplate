@@ -2875,6 +2875,11 @@ body>.login-wrapper.hidden {
     margin-right: -17px
 }
 
+#page-about .sqs-row {
+    margin-left: 0px;
+    margin-right: 0px
+}
+
 .sqs-layout:not(.sqs-editing) .sqs-row .sqs-block:not(.float):not(.sqs-feature-gated-wrapper):first-child {
     padding-top: 0
 }
