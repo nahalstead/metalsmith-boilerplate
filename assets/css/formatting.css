@@ -19212,9 +19212,21 @@ body.page-alignment-right.collection-type-gallery #page {
 .flickity-button-icon {
   fill: white;
 }
+/* enable Flickity by default */
+.sqs-wrapper:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
 
+@media screen and ( max-width: 800px ) {
+  /* disable Flickity for large devices */
+  .sqs-wrapper:after {
+    content: '';
+  }
+}
 /*** Column styles ***/
 .image-block img {
     max-width: 100%;
     height: auto;
 }
+
