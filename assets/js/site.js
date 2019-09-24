@@ -44,6 +44,7 @@ $(document).ready(function() {
         pageDots: false,
         groupCells: false,
         selectedAttraction: 0.12,
-        friction: 0.8
+        friction: 0.8,
+        watchCSS: true
     });
 });    
