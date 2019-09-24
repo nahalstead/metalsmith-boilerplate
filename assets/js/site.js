@@ -33,14 +33,17 @@ $(document).ready(function() {
         $('.sqs-wrapper').flickity({
         // options
         accessibility: true,
+        wrapAround: true,
         setGallerySize: false,
         draggable: false,    
-        cellAlign: 'left',
+        cellAlign: 'center',
         contain: true,
         hash: true,
         autoplay: false,
         imagesLoaded: true,
         pageDots: false,
-        groupCells: false   
+        groupCells: false,
+        selectedAttraction: 0.2,
+        friction: 0.8
     });
 });    
