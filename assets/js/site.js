@@ -43,7 +43,7 @@ $(document).ready(function() {
         imagesLoaded: true,
         pageDots: false,
         groupCells: false,
-        selectedAttraction: 0.05,
+        selectedAttraction: 0.12,
         friction: 0.8
     });
 });    
