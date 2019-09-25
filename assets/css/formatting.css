@@ -19197,16 +19197,16 @@ body.page-alignment-right.collection-type-gallery #page {
 /** Flickity styles  **/
 /* smaller, dark, rounded square */
 .flickity-button {
-  background: #333;
+  background: rgba(0,0,0,.1);
 }
 .flickity-button:hover {
-  background: #F90;
+  background: rgba(0,0,0,.2);
 }
 
 .flickity-prev-next-button {
-  width: 30px;
-  height: 30px;
-  border-radius: 5px;
+    width: 42px;
+    height: 60px;
+    border-radius: 0px;
 }
 /* icon color */
 .flickity-button-icon {
