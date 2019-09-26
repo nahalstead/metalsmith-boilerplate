@@ -6,11 +6,11 @@ image: "/assets/img/canada-nah.jpg"
 menu-order: 2
 ---
 
-(b. London, 1981) Currently living in Largs, Scotland 
+(b. London, 1981) Currently living in Largs, Scotland   
 Email me here: <nickantonyh@gmail.com>  
-Call me on +447751435710
+Call me on +447751435710  
 
-Prints available in my shop [here](http://nickhalstead.bigcartel.com/)
+Prints available in my shop **[here](http://nickhalstead.bigcartel.com/)**
 
 ## Features & Publications
 [Another Place](http://anotherplacemag.tumblr.com/post/138016048262/exit-points-nick-antony-halstead)  
