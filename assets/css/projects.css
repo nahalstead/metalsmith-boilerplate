@@ -44,3 +44,7 @@ main {
     width: 24%;
     vertical-align: top;
 }
+h1 a {
+    padding: 55px 0;
+    display: block;
+}
