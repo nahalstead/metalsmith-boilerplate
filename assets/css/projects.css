@@ -54,5 +54,6 @@ h1 a {
 @media only screen and (max-width:800px) {
     .slide {
     margin-right: auto;
+    margin-bottom: 25px;    
 }
 }
