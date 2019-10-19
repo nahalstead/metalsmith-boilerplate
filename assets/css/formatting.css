@@ -17561,7 +17561,7 @@ body.page-alignment-right.collection-type-gallery #page {
         text-align: center
     }
     #slideshowWrapper.mobile-gallery {
-        margin: 0 !important;
+        margin: 25px !important;
         height: auto !important
     }
     #slideshowWrapper.mobile-gallery .sqs-wrapper {
