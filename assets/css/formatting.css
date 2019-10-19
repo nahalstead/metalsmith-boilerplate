@@ -17248,11 +17248,11 @@ body.page-alignment-right.collection-type-gallery #page {
 
 @media only screen and (max-height:899px) {
     .collection-type-gallery #slideshow {
-        height: 600px
+        height: 425px
     }
     .collection-type-gallery #slideshow .slide,
     .collection-type-gallery #slideshow .slide img {
-        height: 600px
+        height: 425px
     }
     .gallery-controls-text .gallery-controls {
         font-size: 12px
