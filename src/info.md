@@ -14,7 +14,7 @@ Prints available in my shop **[here](http://nickhalstead.bigcartel.com/)**
 
 ## Features & Publications
 [Another Place](http://anotherplacemag.tumblr.com/post/138016048262/exit-points-nick-antony-halstead)  
-[If You Leave](https://iylshowcase.tumblr.com/post/143733381607/on-tumblr-nick-antony-halstead)
+[If You Leave](https://iylshowcase.tumblr.com/post/143733381607/on-tumblr-nick-antony-halstead)  
 [Subjectively Objective](https://subjectivelyobjective.com/product/volume-14/)  
 [Format Magazine](https://www.format.com/magazine/galleries/photography/new-topographics-suburban-photo-gallery)  
 [Aint-Bad Magazine](https://www.aint-bad.com/article/2017/01/20/nick-halstead/)  
